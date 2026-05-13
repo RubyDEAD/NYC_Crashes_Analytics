@@ -426,4 +426,4 @@ def update_charts(selected_borough, year_range):
 # ============================================================================
 
 if __name__ == '__main__':
-    app.run_server(debug=False, port=8050)
+    app.run(debug=False, port=8050)
